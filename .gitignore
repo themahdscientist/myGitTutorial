@@ -1,0 +1,4 @@
+/node_modules
+*.txt
+/jquery.js
+/jquery.slim.js
