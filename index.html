@@ -13,9 +13,9 @@
       <header>
         <nav>
           <ul>
-            <li class="links"><a href="./index.html">Home</a></li>
-            <li class="links"><a href="./projects.html">Projects</a></li>
-            <li class="links"><a href="./about.html">About</a></li>
+            <li><a class="links" href="./index.html">Home</a></li>
+            <li><a class="links" href="./projects.html">Projects</a></li>
+            <li><a class="links" href="./about.html">About</a></li>
           </ul>
         </nav>
         <div class="intro">
@@ -30,13 +30,26 @@
         </div>
       </header>
       <main>
-
+        <p id="test"></p>
       </main>
     </div>
+
     <!-- Javascript and jQuery -->
+
+
     <script src="./jquery.js"></script>
     <script src="./script.js"></script>
+
     <!-- jQuery -->
-    <script></script>
+
+
+    <script>
+      $(document).ready(function () {
+        $('.links').on('click', (e) => {
+          e.preventDefault()
+          document.getElementById('test').innerHTML = 'Functionality Coming Soon';
+        });
+      });
+    </script>
   </body>
 </html>

@@ -44,6 +44,15 @@ header>nav>ul {
   margin-left: 1em;
 }
 
+.links:hover::after {
+  content: '';
+  display: block;
+  height: 1.6px;
+  width: 100%;
+  background-color: red;
+  border-radius: 40px;
+}
+
 nav>ul>li {
   list-style: none;
   font-size: 1.7em;
@@ -52,10 +61,12 @@ nav>ul>li {
 
 nav>ul>li a {
   text-decoration: none;
+  color: teal;
 }
 
 .intro, .close, .logo {
   margin: 0.7em;
+  padding-top: 1em;
 }
 
 .intro, .close {
