@@ -14,8 +14,8 @@
         <nav>
           <ul>
             <li><a class="links" href="./index.html">Home</a></li>
-            <li><a class="links" href="./projects.html">Projects</a></li>
-            <li><a class="links" href="./about.html">About</a></li>
+            <li><a class="links" href="./enquire/project.html">Projects</a></li>
+            <li><a class="links" href="./enquire/about.html">About</a></li>
           </ul>
         </nav>
         <div class="intro">
@@ -47,7 +47,13 @@
       $(document).ready(function () {
         $('.links').on('click', (e) => {
           e.preventDefault()
-          document.getElementById('test').innerHTML = 'Functionality Coming Soon';
+          document.getElementById('test').innerHTML = 'Functionality Currently not available in your country Coming Soon';
+
+          setTimeout(() => {
+            const test = document.getElementById('test');
+            test.classList.add('tested');
+          }, 1);
+
         });
       });
     </script>
