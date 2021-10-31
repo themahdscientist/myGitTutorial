@@ -16,14 +16,40 @@ header {
   justify-content: space-between;
   padding: 1.2em;
   align-items: center;
+  flex-direction: column;
 }
 
-header>div {
-  font-size: 3.5em;
+.logo>.logo-txt {
+  font-size: 5em;
   font-variant: small-caps;
 }
 
 header>nav>ul {
   display: flex;
-  
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo-img img {
+  height: 10em;
+  width: 10em;
+}
+
+.logo-img img {
+  margin-left: 1em;
+}
+
+nav>ul>li {
+  list-style: none;
+  font-size: 1.7em;
+  padding-left: 4em;
+}
+
+nav>ul>li a {
+  text-decoration: none;
 }
