@@ -3,8 +3,27 @@
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   font-family: "Muli", "Roboto";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2em;
+  align-items: center;
+}
+
+header>div {
+  font-size: 3.5em;
+  font-variant: small-caps;
+}
+
+header>nav>ul {
+  display: flex;
+  
 }
