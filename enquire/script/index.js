@@ -15,6 +15,7 @@ function nav_opener() {
   ham.classList.toggle("no_display");
 }
 
+// You were here
 function nav_closer() {
   main.classList.toggle("no_display");
   close.classList.toggle("no_display");
