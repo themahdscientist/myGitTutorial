@@ -25,7 +25,40 @@ header {
 }
 
 .port-word {
-  font-weight: bolder;
+  /* font-weight: bolder; */
   font-variant: small-caps;
   font-size: 1.4em;
+}
+
+.explore {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.explore>li {
+  list-style-type: none;
+  font-size: 3.4em;
+  letter-spacing: 2px;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  transition: 0.5s linear;
+  width: 100%;
+  border-radius: 34px;
+  font-family: cursive;
+}
+
+.explore>li:hover {
+  background-color: transparent;
+  color: black;
+  box-shadow: 2px 1.5px 1px black;
+}
+
+main>ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
