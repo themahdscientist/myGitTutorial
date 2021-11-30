@@ -8,6 +8,17 @@
 }
 
 body {
-  font-family: "Muli", "Roboto";
+  font-family: "Muli", "Roboto", 'Segoe UI';
+  height: auto;
+}
+
+header {
+  margin: 20px 100px 10px 100px;
+  padding: 10px 50px 1px 50px;
+}
+
+.intro, .intro2 {
+  text-transform: capitalize;
+  display: block;
 }
 
