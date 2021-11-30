@@ -19,7 +19,13 @@ header {
 
 .intro, .intro2 {
   text-transform: capitalize;
-  display: block;
-  font-size: 2em;
+  font-size: 5.5em;
+  align-items: center;
+  justify-content: center;
 }
 
+.port-word {
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-size: 1.4em;
+}
