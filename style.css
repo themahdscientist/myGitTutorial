@@ -20,5 +20,6 @@ header {
 .intro, .intro2 {
   text-transform: capitalize;
   display: block;
+  font-size: 2em;
 }
 
