@@ -5,5 +5,5 @@ const main = document.getElementById('home_main_items');
 ham.addEventListener('click', nav_opener);
 
 function nav_opener() {
-    nav.classList.toggle('nav');
+    main.classList.toggle('home_main');
 }

@@ -39,9 +39,6 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-nav {
   background-color: transparent;
   height: auto;
   width: 100%;
