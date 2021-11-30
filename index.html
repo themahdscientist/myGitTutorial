@@ -11,49 +11,29 @@
   <body>
     <div class="container">
       <header>
-        <nav>
-          <ul>
-            <li><a class="links" href="./index.html">Home</a></li>
-            <li><a class="links" href="./enquire/project.html">Projects</a></li>
-            <li><a class="links" href="./enquire/about.html">About</a></li>
-          </ul>
-        </nav>
-        <div class="intro">
-          <h1>Welcome to </h1>
-        </div>
-        <div class="logo">
-          <div class="logo-txt">Mahd</div>
-          <div class="logo-img"><img src="./images/scientist.jpg"></div>
-        </div>
-        <div class="close">
-          <h1>Personal Portfolio</h1>
-        </div>
+        <nav></nav>
       </header>
-      <main>
-        <p id="test"></p>
-      </main>
+      <main></main>
     </div>
 
     <!-- Javascript and jQuery -->
-
 
     <script src="./jquery.js"></script>
     <script src="./script.js"></script>
 
     <!-- jQuery -->
 
-
     <script>
       $(document).ready(function () {
-        $('.links').on('click', (e) => {
-          e.preventDefault()
-          document.getElementById('test').innerHTML = 'Functionality Currently not available in your country Coming Soon';
+        $(".links").on("click", (e) => {
+          e.preventDefault();
+          document.getElementById("test").innerHTML =
+            "Functionality Currently not available in your country Coming Soon";
 
           setTimeout(() => {
-            const test = document.getElementById('test');
-            test.classList.add('tested');
+            const test = document.getElementById("test");
+            test.classList.add("tested");
           }, 1);
-
         });
       });
     </script>
