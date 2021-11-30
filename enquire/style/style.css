@@ -26,24 +26,22 @@ nav > ul > a > li {
 }
 
 .no_display {
-  opacity: 0;
+  display: none;
 }
 
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   background-color: transparent;
   height: auto;
   width: 100%;
-  -webkit-transition: 0.5s linear;
-  transition: 0.5s linear;
 }
 
 .ham {
@@ -52,7 +50,10 @@ nav {
 
 #close_img {
   background-color: black;
-  padding: 3px;
+  height: 20px;
+  width: 20px;
+  padding: 1px;
   border-radius: 7px;
+  margin: 0px 0px 0px 1em;
 }
 /*# sourceMappingURL=style.css.map */
