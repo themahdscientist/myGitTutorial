@@ -26,8 +26,9 @@ nav>ul>a>li {
     list-style-type: none;
 }
 
-.home_main {
-    display: none;
+.no_display {
+    // display: none;
+    opacity: 0;
 }
 
 nav {
@@ -42,4 +43,10 @@ nav {
 
 .ham {
     cursor: pointer;
+}
+
+#close_img {
+    background-color: black;
+    padding: 3px;
+    border-radius: 7px;
 }
