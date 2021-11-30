@@ -2,3 +2,4 @@
 *.txt
 /jquery.js
 /jquery.slim.js
+/.vscode

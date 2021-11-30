@@ -15,9 +15,7 @@ body {
 header {
     margin: 1px;
     padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
 nav>ul>a {
@@ -33,9 +31,22 @@ nav>ul>a>li {
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
     background-color: transparent;
     height: auto;
     width: 100%;
     transition: 0.5s linear;
 }
 
+.nav {
+    
+}
+
+.ham {
+    cursor: pointer;
+}
