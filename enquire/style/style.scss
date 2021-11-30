@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Muli", "Roboto", 'Segoe UI';
+  height: auto;
+}
+
+nav>ul>a {
+    text-decoration: none;
+}
+
+nav>ul>a>li {
+    list-style-type: none;
+}
