@@ -15,6 +15,15 @@ body {
 header {
   margin: 1px;
   padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav > ul > a {
@@ -25,13 +34,15 @@ nav > ul > a > li {
   list-style-type: none;
 }
 
-.main {
+.home_main {
   display: none;
 }
 
 nav {
-  background-color: green;
-  height: 100vh;
-  width: 2vh;
+  background-color: transparent;
+  height: auto;
+  width: 100%;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
 }
 /*# sourceMappingURL=style.css.map */
