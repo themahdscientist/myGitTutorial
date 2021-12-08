@@ -10,11 +10,17 @@
 body {
   font-family: "Muli", "Roboto", 'Segoe UI';
   height: auto;
+  background-color: black;
 }
 
 header {
   margin: 20px 100px 10px 100px;
   padding: 10px 50px 1px 50px;
+  color: white;
+}
+
+.container {
+  font-size: 0.862em;
 }
 
 .intro, .intro2 {
@@ -42,8 +48,8 @@ header {
   text-align: center;
   border: 1px solid transparent;
   padding: 10px;
-  background-color: black;
-  color: white;
+  background-color: #5eff00;
+  color: black;
   transition: 0.5s linear;
   width: 100%;
   border-radius: 34px;
@@ -51,8 +57,8 @@ header {
 }
 
 .explore>li:hover {
-  background-color: transparent;
-  color: black;
+  background-color: #242323;
+  color: #5eff00;
   box-shadow: 2px 1.5px 1px black;
 }
 
