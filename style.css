@@ -49,7 +49,7 @@ main>ul>a {
   transition: 0.2s;
   font-weight: normal;
   box-shadow: 30px 20px 10px #289fee;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 main>ul>a:hover {
@@ -58,7 +58,7 @@ main>ul>a:hover {
   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   transition-delay: 1s;
   font-weight: bold;
-  border-radius: 30px;
+  border-radius: 35px;
 }
 
 main>ul>a span {
@@ -70,7 +70,7 @@ main>ul>a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
-  height: 2px;
+  height: 50px;
   background: linear-gradient(90deg, #2196f3, #1253cc);
 }
 
@@ -83,7 +83,7 @@ main>ul>a span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
-  height: 2px;
+  height: 50px;
   background: linear-gradient(270deg, #1253cc, #2196f3);
 }
 
@@ -96,7 +96,7 @@ main>ul>a:hover span:nth-child(3) {
 main>ul>a span:nth-child(2) {
   top: -100%;
   right: 0;
-  width: 2px;
+  width: 50px;
   height: 100%;
   background: linear-gradient(180deg, #2196f3, #1253cc);
 }
@@ -110,7 +110,7 @@ main>ul>a:hover span:nth-child(2) {
 main>ul>a span:nth-child(4) {
   bottom: -100%;
   left: 0;
-  width: 2px;
+  width: 50px;
   height: 100%;
   background: linear-gradient(360deg, #1253cc, #2196f3);
 }
