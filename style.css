@@ -44,10 +44,12 @@ main>ul>a {
   text-transform: uppercase;
   letter-spacing: 4px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 50px;
   overflow: hidden;
   transition: 0.2s;
   font-weight: normal;
+  box-shadow: 30px 20px 10px #289fee;
+  border-radius: 10px;
 }
 
 main>ul>a:hover {
@@ -56,6 +58,7 @@ main>ul>a:hover {
   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
   transition-delay: 1s;
   font-weight: bold;
+  border-radius: 30px;
 }
 
 main>ul>a span {
@@ -68,7 +71,7 @@ main>ul>a span:nth-child(1) {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #2196f3);
+  background: linear-gradient(90deg, #2196f3, #1253cc);
 }
 
 main>ul>a:hover span:nth-child(1) {
@@ -81,12 +84,12 @@ main>ul>a span:nth-child(3) {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #2196f3);
+  background: linear-gradient(270deg, #1253cc, #2196f3);
 }
 
 main>ul>a:hover span:nth-child(3) {
   right: 100%;
-  transition: 3s;
+  transition: 1s;
   transition-delay: 0.5s;
 }
 
@@ -95,7 +98,7 @@ main>ul>a span:nth-child(2) {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #2196f3);
+  background: linear-gradient(180deg, #2196f3, #1253cc);
 }
 
 main>ul>a:hover span:nth-child(2) {
@@ -109,7 +112,7 @@ main>ul>a span:nth-child(4) {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #2196f3);
+  background: linear-gradient(360deg, #1253cc, #2196f3);
 }
 
 main>ul>a:hover span:nth-child(4) {
