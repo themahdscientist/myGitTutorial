@@ -76,7 +76,7 @@ main>ul>a span:nth-child(1) {
 
 main>ul>a:hover span:nth-child(1) {
   left: 100%;
-  transition: 2s;
+  transition: 1s;
 }
 
 main>ul>a span:nth-child(3) {
@@ -103,7 +103,7 @@ main>ul>a span:nth-child(2) {
 
 main>ul>a:hover span:nth-child(2) {
   top: 100%;
-  transition: 4s;
+  transition: 1s;
   transition-delay: 0.25s;
 }
 
