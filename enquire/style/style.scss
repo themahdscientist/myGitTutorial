@@ -11,7 +11,7 @@ body {
   font-family: "Muli", "Roboto", 'Segoe UI';
   height: auto;
   overflow-x: hidden;
-  background-color: black;
+  background: url('/Users/javasoft/Desktop/My Portfolio/images/scientist.gif') no-repeat;
 }
 
 header {
@@ -37,68 +37,119 @@ nav {
     align-items: flex-start;
     background-color: transparent;
     height: 100%;
-    width: auto;
+    width: 20%;
     position: absolute;
     top: 0;
     left: -500px;
     transition: 0.5s ease-out;
     line-height: 3em;
-    background-image: linear-gradient(to right, #1141df, #5490ff);
+    background-image: linear-gradient(to right, #41b2b6, #099173);
     padding: 3em;
 }
 
-nav:target {
-    top: 0;
-    left: 0;
-    margin-left: 3px;
+.list>a>li {
+    font-size: 0.7em;
+    padding: 1px;
+    color: #e7ff8f;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: 1.3em;
+    margin: 20px 2px;
 }
 
-#menu{
-    background-color: blue;
+.list>a>li:hover {
+    color: #668171;
+}
+
+.menu-wrapper {
     width: 2%;
-    height: 3.5px;
-    border-radius: 20px;
-    margin-left: 10px;
+    margin: 10px;
     cursor: pointer;
-    position: relative;
-    margin: 50px;
+    padding: 1px;
 }
 
-#menu::after {
-    content: '';
-    background-color: yellow;
-    position: absolute;
-    top: 7px;
-    left: 0;
+#menu {
     width: 100%;
     height: 3px;
-    border-radius: 20px;
-    cursor: pointer;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
 }
 
 #menu::before {
     content: '';
-    background-color: red;
     position: absolute;
-    top: -7px;
-    left: 0;
     width: 100%;
     height: 3px;
-    border-radius: 20px;
+    top: -7px;
+    left: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#menu::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 7px;
+    left: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.close-wrapper {
+    width: 15%;
     cursor: pointer;
+    padding: 1px;
 }
 
-.list>a>li:hover {
-    background-color: green;
-    border-radius: 20px;
+#close {
+    width: 100%;
+    height: 3px;
+    background-color: transparent;
+    position: relative;
+
 }
 
-// .close {
-//     margin-left: 1.5em;
-//     text-decoration: none;
-//     color: cyan;
-//     text-transform: uppercase;
-//     font-weight: bold;
-//     font-size: 1.2em;
-//     font-family: cursive;
-// }
+#close::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#close::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.active::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    transform: rotateZ(235deg);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    transform: rotateZ(305deg);
+    background-color: white;
+    border-radius: 10px;
+}
