@@ -12,6 +12,45 @@ body {
   height: auto;
 }
 
+nav {
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to right, #38b4da, #afd6ec);
+  color: #04070a;
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav>h4:hover {
+  color: white;
+}
+
+nav>button>a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  font-family: 'Segoe UI';
+  font-weight: bold;
+
+}
+
+nav>button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: blue;
+  border: none;
+  transition: 1s;
+}
+
+nav>button:hover {
+  background-color: #ff2340;
+}
+
 main {
   color: white;
   font-size: 1em;
@@ -25,6 +64,7 @@ main {
   justify-content: center;
   height: 100%;
   width: 100%;
+  font-family: cursive;
 }
 
 .port-word {
@@ -35,6 +75,9 @@ main {
 
 .first-portion {
   background-color: black;
+}
+
+.first-portion, .second-portion, .third-portion {
   padding: 30px 150px 11px 150px;
   height: 100%;
 }
@@ -133,6 +176,19 @@ main .first-portion > ul {
 
 .second-portion {
   background-color: crimson;
-  padding: 30px 150px 11px 150px;
-  height: 100%;
 }
+
+.third-portion {
+  background-color: green;
+}
+
+footer {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  font-family: 'Segoe UI';
+}
+
