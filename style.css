@@ -8,35 +8,38 @@
 }
 
 body {
-  font-family: "Muli", "Roboto", 'Segoe UI';
+  font-family: "Muli", "Roboto", "Segoe UI";
   height: auto;
-  background-color: black;
 }
 
-header {
-  margin: 20px 100px 10px 100px;
-  padding: 10px 50px 1px 50px;
+main {
   color: white;
+  font-size: 1em;
 }
 
-.container {
-  font-size: 0.862em;
-}
-
-.intro, .intro2 {
+.intro,
+.intro2 {
   text-transform: capitalize;
   font-size: 5.5em;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .port-word {
   /* font-weight: bolder; */
   font-variant: small-caps;
-  font-size: 1.4em;
+  font-size: 1em;
 }
 
-main>ul>a {
+.first-portion {
+  background-color: black;
+  padding: 30px 150px 11px 150px;
+  height: 100%;
+}
+
+main .first-portion > ul > a {
   position: relative;
   display: inline-block;
   padding: 15px 30px;
@@ -48,82 +51,88 @@ main>ul>a {
   overflow: hidden;
   transition: 0.2s;
   font-weight: normal;
-  box-shadow: 30px 20px 10px #289fee;
+  box-shadow: 5px 5px 1px #289fee;
   border-radius: 20px;
 }
 
-main>ul>a:hover {
-  color: #255784;
+main .first-portion > ul > a:hover {
+  color: black;
   background: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  box-shadow: 0 0 7px #2196f3;
   transition-delay: 1s;
   font-weight: bold;
   border-radius: 35px;
 }
 
-main>ul>a span {
+main .first-portion > ul > a span {
   position: absolute;
   display: block;
 }
 
-main>ul>a span:nth-child(1) {
+main .first-portion > ul > a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
-  height: 50px;
+  height: 2px;
   background: linear-gradient(90deg, #2196f3, #1253cc);
 }
 
-main>ul>a:hover span:nth-child(1) {
+main .first-portion > ul > a:hover span:nth-child(1) {
   left: 100%;
-  transition: 1s;
+  transition: 0.25s;
 }
 
-main>ul>a span:nth-child(3) {
+main .first-portion > ul > a span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
-  height: 50px;
+  height: 2px;
   background: linear-gradient(270deg, #1253cc, #2196f3);
 }
 
-main>ul>a:hover span:nth-child(3) {
+main .first-portion > ul > a:hover span:nth-child(3) {
   right: 100%;
-  transition: 1s;
+  transition: 0.25s;
   transition-delay: 0.5s;
 }
 
-main>ul>a span:nth-child(2) {
+main .first-portion > ul > a span:nth-child(2) {
   top: -100%;
   right: 0;
-  width: 50px;
+  width: 1px;
   height: 100%;
   background: linear-gradient(180deg, #2196f3, #1253cc);
 }
 
-main>ul>a:hover span:nth-child(2) {
+main .first-portion > ul > a:hover span:nth-child(2) {
   top: 100%;
-  transition: 1s;
+  transition: 0.25s;
   transition-delay: 0.25s;
 }
 
-main>ul>a span:nth-child(4) {
+main .first-portion > ul > a span:nth-child(4) {
   bottom: -100%;
   left: 0;
-  width: 50px;
+  width: 1px;
   height: 100%;
   background: linear-gradient(360deg, #1253cc, #2196f3);
 }
 
-main>ul>a:hover span:nth-child(4) {
+main .first-portion > ul > a:hover span:nth-child(4) {
   bottom: 100%;
-  transition: 1s;
+  transition: 0.25s;
   transition-delay: 0.75s;
 }
 
-main>ul {
+main .first-portion > ul {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
+}
+
+.second-portion {
+  background-color: crimson;
+  padding: 30px 150px 11px 150px;
+  height: 100%;
 }

@@ -53,9 +53,39 @@ nav:target {
     margin-left: 3px;
 }
 
-#btn {
+#menu{
+    background-color: blue;
+    width: 2%;
+    height: 3.5px;
+    border-radius: 20px;
     margin-left: 10px;
-    color: lightblue;
+    cursor: pointer;
+    position: relative;
+    margin: 50px;
+}
+
+#menu::after {
+    content: '';
+    background-color: yellow;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: '';
+    background-color: red;
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .list>a>li:hover {
@@ -63,12 +93,12 @@ nav:target {
     border-radius: 20px;
 }
 
-.close {
-    margin-left: 1.5em;
-    text-decoration: none;
-    color: cyan;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.2em;
-    font-family: cursive;
-}
+// .close {
+//     margin-left: 1.5em;
+//     text-decoration: none;
+//     color: cyan;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     font-size: 1.2em;
+//     font-family: cursive;
+// }
