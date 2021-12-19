@@ -11,13 +11,14 @@ body {
   font-family: "Muli", "Roboto", 'Segoe UI';
   height: auto;
   overflow-x: hidden;
-  background: url('/Users/javasoft/Desktop/My Portfolio/images/scientist.gif') no-repeat;
+  background-color: black;
 }
 
 header {
     margin: 1px;
     padding: 5px;
     display: flex;
+    justify-content: space-between;
 }
 
 nav>ul>a {
@@ -45,6 +46,7 @@ nav {
     line-height: 3em;
     background-image: linear-gradient(to right, #41b2b6, #099173);
     padding: 3em;
+    z-index: 1;
 }
 
 .list>a>li {
@@ -152,4 +154,39 @@ nav {
     transform: rotateZ(305deg);
     background-color: white;
     border-radius: 10px;
+}
+
+main {
+    align-items: center;
+}
+
+main .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+main .nav ul>li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-style: italic;
+}
+
+main .nav ul>li>a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+main .nav ul>li>a:hover::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: whitesmoke;
+    left: 0;
+    bottom: -5px;
 }
